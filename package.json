@@ -1,0 +1,43 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1043.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "email-templates": "^8.0.9",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "geolocation": "^0.2.0",
+    "handlebars": "^3.0.0",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.0",
+    "nodemon": "^2.0.15",
+    "razorpay": "^2.0.6",
+    "serverless": "^2.72.1",
+    "sha1": "^1.1.1",
+    "shortid": "^2.2.16",
+    "unirest": "^0.6.0"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnnxtech/rainbowcartbackend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gnnxtech/rainbowcartbackend/issues"
+  },
+  "homepage": "https://github.com/gnnxtech/rainbowcartbackend#readme",
+  "description": ""
+}

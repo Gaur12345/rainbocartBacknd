@@ -1,0 +1,58 @@
+{
+    "entity": "event",
+    "account_id": "acc_HD48e1UpOBpmw5",
+    "event": "payment.captured",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_HbxKOdAsnNi3Q8",
+                "entity": "payment",
+                "amount": 2536000,
+                "currency": "INR",
+                "status": "captured",
+                "order_id": "order_HbxK9IhkvUlV4P",
+                "invoice_id": null,
+                "international": false,
+                "method": "card",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": "Thank you for nothing. Please give us some money",
+                "card_id": "card_HbxKOiQTFnvGRH",
+                "card": {
+                    "id": "card_HbxKOiQTFnvGRH",
+                    "entity": "card",
+                    "name": "Gaurav",
+                    "last4": "1111",
+                    "network": "Visa",
+                    "type": "debit",
+                    "issuer": null,
+                    "international": false,
+                    "emi": false,
+                    "sub_type": "consumer"
+                },
+                "bank": null,
+                "wallet": null,
+                "vpa": null,
+                "email": "gweaurav.kk566@gmal.com",
+                "contact": "+917004848447",
+                "notes": [],
+                "fee": 59850,
+                "tax": 9130,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "acquirer_data": {
+                    "auth_code": "601246"
+                },
+                "created_at": 1626952389
+            }
+        }
+    },
+    "created_at": 1626952395
+}
